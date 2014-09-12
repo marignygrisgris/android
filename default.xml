@@ -38,6 +38,14 @@
   <project path="device/google/accessory/demokit" name="CyanogenMod/android_device_google_accessory_demokit" />
   <project path="device/sample" name="CyanogenMod/android_device_sample" />
   <project path="device/ti/panda" name="CyanogenMod/android_device_ti_panda" />
+  
+  <!-- START - GOGH DEVICE, KERNEL, VENDOR -->
+  <project path="device/samsung/gogh-common" name="marignygrisgris/android_device_samsung_gogh-common" />
+  <project path="device/samsung/goghspr" name="vmobi-gogh/android_device_samsung_goghspr" />
+  <project path="device/samsung/goghvmu" name="vmobi-gogh/android_device_samsung_goghvmu" />
+  <project path="kernel/samsung/gogh" name="vmobi-gogh/android_kernel_samsung_gogh" />
+  <!-- END - GOGH DEVICE, KERNEL, VENDOR -->
+  
   <project path="docs/source.android.com" name="CyanogenMod/android_docs_source.android.com" />
   <project path="external/aac" name="CyanogenMod/android_external_aac" />
   <project path="external/android-mock" name="CyanogenMod/android_external_android-mock" />
