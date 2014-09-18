@@ -9,11 +9,11 @@ To get started with Android/CyanogenMod, you'll need to get setup your
 
 To initialize your local repository using the CyanogenMod trees, use a command like this:
 
-    repo init -u git://github.com/marignygrisgris/android.git -b jellybean
+repo init -u git://github.com/marignygrisgris/android.git -b jellybean
 
 Then to sync up:
 
-    repo sync
+repo sync
 
 For more information on this Github Organization and how it is structured, 
 please [read the wiki article](http://wiki.cyanogenmod.org/index.php/Github_Organization)
@@ -23,16 +23,16 @@ Building
 
 Once the repo's are synced you will need to get the CyanogenMod prebuilts
 
-    vendor/cm/get-prebuilts
+vendor/cm/get-prebuilts
     
 
 Then depending on what device you are building for you will need to run the following
 
 GOGHSPR - Sprint Version
 
-    . build/envsetup.sh && brunch goghspr
+. build/envsetup.sh && brunch goghspr
 
 GOGHVMU - Virgin Mobile Version
 
-    . build/envsetup.sh && brunch goghvmu
+. build/envsetup.sh && brunch goghvmu
 
