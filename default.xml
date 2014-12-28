@@ -37,16 +37,7 @@
   <project path="device/google/accessory/arduino" name="CyanogenMod/android_device_google_accessory_arduino" />
   <project path="device/google/accessory/demokit" name="CyanogenMod/android_device_google_accessory_demokit" />
   <project path="device/sample" name="CyanogenMod/android_device_sample" />
-  <project path="device/ti/panda" name="CyanogenMod/android_device_ti_panda" />
-  
-  <!-- START - GOGH DEVICE, KERNEL, VENDOR -->
-  <project path="device/samsung/gogh-common" name="marignygrisgris/android_device_samsung_gogh-common" />
-  <project path="device/samsung/goghspr" name="marignygrisgris/android_device_samsung_goghspr" />
-  <project path="device/samsung/goghvmu" name="marignygrisgris/android_device_samsung_goghvmu" />
-  <project path="kernel/samsung/gogh" name="marignygrisgris/android_kernel_samsung_gogh" />
-  <project path="vendor/samsung" name="marignygrisgris/android_vendor_samsung" />
-  <!-- END - GOGH DEVICE, KERNEL, VENDOR -->
-  
+  <project path="device/ti/panda" name="CyanogenMod/android_device_ti_panda" />  
   <project path="docs/source.android.com" name="CyanogenMod/android_docs_source.android.com" />
   <project path="external/aac" name="CyanogenMod/android_external_aac" />
   <project path="external/android-mock" name="CyanogenMod/android_external_android-mock" />
@@ -338,4 +329,9 @@
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
+  <project path="device/samsung/gogh-common" name="marignygrisgris/android_device_samsung_gogh-common" />
+  <project path="device/samsung/goghspr" name="vmobi-gogh/android_device_samsung_goghspr" />
+  <project path="device/samsung/goghvmu" name="marignygrisgris/android_device_samsung_goghvmu" />
+  <project path="kernel/samsung/gogh" name="vmobi-gogh/android_kernel_samsung_gogh" />
+  <project path="vendor/samsung" name="marignygrisgris/android_vendor_samsung" />
 </manifest>
