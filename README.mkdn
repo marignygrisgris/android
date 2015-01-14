@@ -9,7 +9,7 @@ To get started with Android/CyanogenMod, you'll need to get setup your
 
 To initialize your local repository using the CyanogenMod trees, use a command like this:
 
-repo init -u git://github.com/marignygrisgris/android.git -b jellybean
+repo init -u git://github.com/marignygrisgris/android.git -b ics
 
 Then to sync up:
 
